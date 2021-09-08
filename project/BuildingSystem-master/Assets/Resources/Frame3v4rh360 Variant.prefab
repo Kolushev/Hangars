@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1231475261873890718
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 226117596700539654, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 464086374066071011, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032216656682889175, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232598049868711181, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232598049868711181, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224805856568048684, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3858166330886487588, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3858166330886487588, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3950561137271883698, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4837727040809340765, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085921196276393072, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_Name
+      value: Frame3v4rh360
+      objectReference: {fileID: 0}
+    - target: {fileID: 7351260346636689226, guid: 392c6bd583ff7414fa47ed6b2d018e78,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 392c6bd583ff7414fa47ed6b2d018e78, type: 3}
