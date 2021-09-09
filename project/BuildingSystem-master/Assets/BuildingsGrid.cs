@@ -51,12 +51,12 @@ public class BuildingsGrid : MonoBehaviour
                                           //    pref =  Resources.Load <Building>("Frame3v4h420");
 
         // buildingHeigt = 420;
-        Debug.Log(buildingHeigt);
+       // Debug.Log(buildingHeigt);
         String prefabName = Path.GetFileNameWithoutExtension(AssetDatabase.GetAssetPath(buildingPrefab));
 
         if (buildingHeigt != 300) {        //если 420 высота, то переназначаем префаб (потом придется с этим ебаться)
 
-            Debug.Log("" + prefabName + "h" + buildingHeigt);
+           // Debug.Log("" + prefabName + "h" + buildingHeigt);
 
             pref = Resources.Load<Building>(   "" + prefabName +"h" + buildingHeigt +" Variant");
 
