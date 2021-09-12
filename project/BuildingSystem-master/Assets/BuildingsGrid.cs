@@ -4,6 +4,7 @@ using UnityEditor;
 using System;
 using System.IO;
 //using System.txt;
+//тестовые изменения для  гитхаб
 
 
 public class BuildingsGrid : MonoBehaviour
