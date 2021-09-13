@@ -14,17 +14,23 @@ public class BuildingsGrid : MonoBehaviour
     private Building[,] grid; // массив занятых зданиями ячеек. тут как-то стороны надо будет учитывать!!!и другие характеристики
     private Building flyingBuilding;  //летающее за мышью строение;
     private Camera mainCamera;
-    public static int buildingHeigt = 300; //статическая, потому что оказывается у этой решетки масса экземпляров и разные методы видят разную высоту
+    public  static int buildingHeigt = 300; //статическая, потому что оказывается у этой решетки масса экземпляров и разные методы видят разную высоту
     [SerializeField] private Text hWall;
-    public Slider wallSlider;
+    [SerializeField]  public  Slider wallSlider;
 
 
 
     private void Start() {
+        //  Debug.WriteLine();
 
-        wallSlider.onValueChanged.AddListener(delegate { SetBuildingHeightBySlider(); }); //включили слушатель ползунка
 
-        hWall.text = "" + buildingHeigt.ToString();    //установлили строительную высоту начальную в индикатор
+        try
+        {
+            wallSlider.onValueChanged.AddListener(delegate { SetBuildingHeightBySlider(); }); //включили слушатель ползунка
+
+            hWall.text = "" + buildingHeigt.ToString();    //установлили строительную высоту начальную в индикатор
+        }
+        catch (Exception e) { }
     }
 
     private void Awake()
@@ -44,30 +50,43 @@ public class BuildingsGrid : MonoBehaviour
 
     }
 
-
-    public void StartPlacingBuilding(Building buildingPrefab) //установка летающего здания на новое место. Где-то получаем префаб, пока не ясно где
+    public void SetBuildingHeightBySlider(float h)
     {
 
-        Building pref = buildingPrefab;   //создали рабочий префаб, пока назначили заданный, потом неясно, что с ним делать.
+        buildingHeigt = (int)h * 20;  //получили высоту со слайдера умножив на 10 см
+        hWall.text = "" + buildingHeigt.ToString(); // забили в текст новую высоту стены
+        //Debug.Log(buildingHeigt); //залогировали
+
+    }
+
+    
+    public void StartPlacingBuilding(String name) //установка летающего здания на новое место. Вариант получения стринг-названия (иначе не компилируется с ресурсами)
+    {
+
+        Building pref;   //создали рабочий префаб, пока назначили заданный, потом неясно, что с ним делать.
                                           //    pref =  Resources.Load <Building>("Frame3v4h420");
 
         // buildingHeigt = 420;
-       // Debug.Log(buildingHeigt);
-        String prefabName = Path.GetFileNameWithoutExtension(AssetDatabase.GetAssetPath(buildingPrefab));
-
-        if (buildingHeigt != 300) {        //если 420 высота, то переназначаем префаб (потом придется с этим ебаться)
-
-           // Debug.Log("" + prefabName + "h" + buildingHeigt);
-
-            pref = Resources.Load<Building>(   "" + prefabName +"h" + buildingHeigt +" Variant");
+        // Debug.Log(buildingHeigt);
 
 
-           // Debug.Log(buildingPrefab.getName); 
+        //String prefabName = Path.GetFileNameWithoutExtension(AssetDatabase.GetAssetPath(buildingPrefab));  //- раньше вытаскимвали из префаба, теперь наверное обойдемся без этого.
+        //Debug.Log(prefabName);
+
+       // if (buildingHeigt != 300)
+          //если 420 высота, то переназначаем префаб (потом придется с этим ебаться)
+
+            // Debug.Log("" + prefabName + "h" + buildingHeigt);
+
+            pref = Resources.Load<Building>("" + name + "h" + buildingHeigt + " Variant");
+
+
+            // Debug.Log(buildingPrefab.getName); 
 
 
             //pref = Resources.Load<Building>(buildingPrefab"h420"); // НЕ РАБОТАЕТ!!!!!!
 
-        }
+        
 
 
 
@@ -75,9 +94,10 @@ public class BuildingsGrid : MonoBehaviour
         {
             Destroy(flyingBuilding.gameObject);  //удаление предыдущего, если он есть
         }
-        
+
         flyingBuilding = Instantiate(pref); //установка. только совершенно непонятно куда. видимо в префабе все данные?
     }
+
 
     private void Update()
     {

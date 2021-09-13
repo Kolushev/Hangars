@@ -319,16 +319,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104578891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: BuildingsGrid, Assembly-CSharp
         m_MethodName: StartPlacingBuilding
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 1420786166512446415, guid: 96f113089ef627d4fa13c99d4a450b02,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: Building, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Frame3v4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &220249143
@@ -645,19 +644,7 @@ MonoBehaviour:
   m_Value: 15
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &348523010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,16 +744,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104578891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: BuildingsGrid, Assembly-CSharp
         m_MethodName: StartPlacingBuilding
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 911661003255950897, guid: 4018ab54ec24fa946b70ef8aec40cfad,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: Building, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Frame3v6r
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &427842555
@@ -1514,16 +1500,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104578891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: BuildingsGrid, Assembly-CSharp
         m_MethodName: StartPlacingBuilding
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 2598887682188285296, guid: e3943100e823eb4419cf9046107aad28,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: Building, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Frame3v6
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1067871061
@@ -1648,16 +1633,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104578891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: BuildingsGrid, Assembly-CSharp
         m_MethodName: StartPlacingBuilding
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 5797257162777869163, guid: 9659846e1f7d8134288aa6fd7aaf3fe0,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: Building, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Frame3v4r
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1338781308
@@ -2178,16 +2162,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104578891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: BuildingsGrid, Assembly-CSharp
         m_MethodName: StartPlacingBuilding
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 8814107490840692690, guid: 1fcb16f9370fd04439571df10e121c49,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: Building, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Frame3v6l
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1948120284
@@ -2407,16 +2390,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104578891}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: BuildingsGrid, Assembly-CSharp
         m_MethodName: StartPlacingBuilding
-        m_Mode: 2
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 8720530152720306557, guid: d9bbc101c1310ee43a96b610a8c6ebb1,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: Building, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Frame3v4l
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2090257941
