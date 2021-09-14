@@ -22,6 +22,11 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 202749132431968051, guid: 1ab991eb18318db40bec9aaa06608776,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5165
+      objectReference: {fileID: 0}
     - target: {fileID: 2016158641622286487, guid: 1ab991eb18318db40bec9aaa06608776,
         type: 3}
       propertyPath: m_RootOrder
@@ -110,7 +115,7 @@ PrefabInstance:
     - target: {fileID: 8191704866511542475, guid: 1ab991eb18318db40bec9aaa06608776,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v6rh320
+      value: Frame3v6rh320 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8365741223563195366, guid: 1ab991eb18318db40bec9aaa06608776,
         type: 3}

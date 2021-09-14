@@ -15,12 +15,17 @@ PrefabInstance:
     - target: {fileID: 2238689360144273191, guid: 5f485347d9c242b449eccbf5cc13b971,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v4h400
+      value: Frame3v4h400 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2607151296640809108, guid: 5f485347d9c242b449eccbf5cc13b971,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3460513654998601903, guid: 5f485347d9c242b449eccbf5cc13b971,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.11
       objectReference: {fileID: 0}
     - target: {fileID: 3513290374917227603, guid: 5f485347d9c242b449eccbf5cc13b971,
         type: 3}
@@ -36,6 +41,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VersionIndex
       value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4317760589809400304, guid: 5f485347d9c242b449eccbf5cc13b971,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.11
       objectReference: {fileID: 0}
     - target: {fileID: 4576029041941181469, guid: 5f485347d9c242b449eccbf5cc13b971,
         type: 3}

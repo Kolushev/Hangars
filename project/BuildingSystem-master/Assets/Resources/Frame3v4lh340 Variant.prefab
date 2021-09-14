@@ -110,7 +110,12 @@ PrefabInstance:
     - target: {fileID: 6114081121644769062, guid: 85320ff6d3e93da479f92f6c9256bec2,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v4lh340
+      value: Frame3v4lh340 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6971313379974389206, guid: 85320ff6d3e93da479f92f6c9256bec2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.611
       objectReference: {fileID: 0}
     - target: {fileID: 8379415865771168796, guid: 85320ff6d3e93da479f92f6c9256bec2,
         type: 3}

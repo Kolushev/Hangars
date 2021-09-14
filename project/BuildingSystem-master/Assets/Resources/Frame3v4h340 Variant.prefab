@@ -122,10 +122,20 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5157035019133578528, guid: fd7fe0f69e48710408e9d756df559796,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.51
+      objectReference: {fileID: 0}
     - target: {fileID: 5194371072868616594, guid: fd7fe0f69e48710408e9d756df559796,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511432542041228415, guid: fd7fe0f69e48710408e9d756df559796,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.51
       objectReference: {fileID: 0}
     - target: {fileID: 6032915405836191003, guid: fd7fe0f69e48710408e9d756df559796,
         type: 3}
@@ -135,7 +145,7 @@ PrefabInstance:
     - target: {fileID: 7531745702951056040, guid: fd7fe0f69e48710408e9d756df559796,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v4h340
+      value: Frame3v4h340 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7868351167500769669, guid: fd7fe0f69e48710408e9d756df559796,
         type: 3}

@@ -92,6 +92,11 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 3560820300351781479, guid: d16dbff33b828d74c8ce654dd1807ad3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.759
+      objectReference: {fileID: 0}
     - target: {fileID: 3760667945880286930, guid: d16dbff33b828d74c8ce654dd1807ad3,
         type: 3}
       propertyPath: m_Mesh
@@ -140,7 +145,12 @@ PrefabInstance:
     - target: {fileID: 9087045188928517618, guid: d16dbff33b828d74c8ce654dd1807ad3,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v6h360
+      value: Frame3v6h360 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109345196138042899, guid: d16dbff33b828d74c8ce654dd1807ad3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.759
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d16dbff33b828d74c8ce654dd1807ad3, type: 3}

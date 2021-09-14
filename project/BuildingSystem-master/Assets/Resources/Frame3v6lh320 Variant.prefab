@@ -27,6 +27,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1890347020016554085, guid: 57362c3dcceb43540813de1c62160546,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5165
+      objectReference: {fileID: 0}
     - target: {fileID: 1946155227467219543, guid: 57362c3dcceb43540813de1c62160546,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -105,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 6036468556391516656, guid: 57362c3dcceb43540813de1c62160546,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v6lh320
+      value: Frame3v6lh320 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6229047103303787229, guid: 57362c3dcceb43540813de1c62160546,
         type: 3}

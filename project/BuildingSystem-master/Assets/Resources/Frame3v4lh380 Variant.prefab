@@ -20,7 +20,7 @@ PrefabInstance:
     - target: {fileID: 1088991376409148588, guid: 67c38d8887818e64cb0b0a3c15d360b7,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1609726675671498404, guid: 67c38d8887818e64cb0b0a3c15d360b7,
         type: 3}
@@ -85,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 3138229732006119301, guid: 67c38d8887818e64cb0b0a3c15d360b7,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3802447254310874463, guid: 67c38d8887818e64cb0b0a3c15d360b7,
         type: 3}
@@ -102,6 +102,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 3.8
       objectReference: {fileID: 0}
+    - target: {fileID: 5216426910781019144, guid: 67c38d8887818e64cb0b0a3c15d360b7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.011
+      objectReference: {fileID: 0}
     - target: {fileID: 6670612126898920898, guid: 67c38d8887818e64cb0b0a3c15d360b7,
         type: 3}
       propertyPath: m_Mesh
@@ -115,7 +120,7 @@ PrefabInstance:
     - target: {fileID: 8935977652685629176, guid: 67c38d8887818e64cb0b0a3c15d360b7,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v4lh380
+      value: Frame3v4lh380 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67c38d8887818e64cb0b0a3c15d360b7, type: 3}

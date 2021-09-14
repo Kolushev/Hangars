@@ -20,7 +20,7 @@ PrefabInstance:
     - target: {fileID: 3949525261365087044, guid: a96a1b8e0faf3c44884ecdc953a7adc9,
         type: 3}
       propertyPath: m_Name
-      value: Frame3v6lh400
+      value: Frame3v6lh400 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5030995752066371856, guid: a96a1b8e0faf3c44884ecdc953a7adc9,
         type: 3}
@@ -116,6 +116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165261742393987793, guid: a96a1b8e0faf3c44884ecdc953a7adc9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.3165
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a96a1b8e0faf3c44884ecdc953a7adc9, type: 3}
